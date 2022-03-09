@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url(../img/snake2.jfif);
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+button{
+    font-size: 50px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    background: transparent;
+    color: rgb(177, 210, 238);
+    border-color: rgb(186, 217, 243);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    color: rgb(185, 213, 238);
+    font-size: 80px;
+    margin: 25px;
+    margin-bottom: 25%;
+    text-align: center;
+    margin-top: 6%;
+    text-decoration:underline 5px ;
+}
